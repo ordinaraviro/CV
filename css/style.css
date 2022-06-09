@@ -3,7 +3,45 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 3vw;
+    margin: 0 auto;
+}
+
 header {
+    margin-top: 20px;
     background-color: #f4f4f4;
     height: 100px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+.header-name {
+    font-family: "Montserrat";
+}
+
+.header-text {
+    font-family: "Montserrat";
+}
+
+.header-photo {
+    position: absolute;
+    right: 3vw;
+    top: 1vw;
+    background-image: url("/CV/assets/svg/1455554989_users-6_icon-icons.com_53279.svg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
