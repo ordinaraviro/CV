@@ -69,7 +69,7 @@ main {
 }
 
 .left-side {
-    width: 20vw;
+    width: 30vw;
 }
 
 .divide-line {
@@ -80,6 +80,15 @@ main {
 
 .right-side {
     width: 40vw;
+}
+
+.contacts-item {
+    list-style: none;
+    height: 30px;
+}
+
+.gh-anchor {
+    text-decoration: none;
 }
 
 .left-divide-line {
