@@ -1,70 +1,73 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ua">
 	<head>
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-		<link rel="stylesheet" href="style.css">
-		<title>Why</title>
+		<link rel="icon" href="../CV/assets/img/cv.ico">
+		<link rel="stylesheet" href="./css/style.css">
+		<title>Front-end dev A. Yulin CV</title>
 	</head>
-
 	<body>
-		<header class="page-header">
+		<header>
 			<div class="container">
-				<a href="" class="header-email">@gmail</a>
-				<a href="" class="header-phone"></a>
-			</div>
-		</header>
-
-		<section class="hero-image">
-			<div class="container">
-				<h1 class="heading">Ordinara viro</h1>
-				<p>Who?</p>
-			</div>
-		</section>
-
-		<section class="intro">
-			<div class="container">
-				<h2 class="subheading">Hi there!</h2>
-				<figure class="user-image">
-					<img src="files/user.jpg" width="" height="" alt="some photo">
-				</figure>
-				<h3></h3>
-				<p>some text</p>
-				<h3></h3>
-				<p></p>
-				<div class="skills">
-					<h3>my skills</h3>
-					<dl class="skills-list">
-					<dt class="skill-html">HTML</dt>
-					<dd class="level"><div style="width: 60%;">60%</div></dd>
-					<dt class="skill-css">CSS</dt>
-					<dd class="level"><div style="width: 40%;">40%</div></dd>
-					</dl>
+				<div class="header-container">
+					<div class="header-text-container">
+						<h1 class="header-name">Alexander Yulin</h1>
+						<h2 class="header-text">Front-end Developer</h2>
+					</div>
+					<div class="header-photo"></div>
 				</div>
 			</div>
-		</section>
-
-		<section class="portfolio">
+		</header>
+		<main>
 			<div class="container">
-				<h2 class="subheading"></h2>
-				<figure class="project-image">
-					<img src="files/project.jpg" width="" height="" alt="а">
-				</figure>
-				<h3></h3>
-				<a class="button" href="source/project/index.html">push</a>
-				<p></p>
-
-				<h3></h3>
-				<a class="button" href="source/project/index.html">mm</a>
-				<p>.</p>
+				<div class="cv-info-container">
+					<div class="left-side">
+						<div class="contacts">
+							<div class="title"></div>
+							<ul class="contacts-list">
+								<!-- TODO: add icons instead of text "e-mail" and else -->
+								<li class="contacts-item">E-mail: ordinaraviro@gmail.com</li>
+								<li class="contacts-item">Telegram: +380954507049</li>
+								<li class="contacts-item"><a target="blanket" href="https://github.com/ordinaraviro" class="gh-anchor">GitHub: ordinaraviro</a></li>
+							</ul>
+						</div>
+						<div class="left-divide-line"></div>
+						<div class="skills">
+							<div class="title">Skills</div>
+							<ul class="skills-list">
+								<li class="skills-item">HTML</li>
+								<li class="skills-item">CSS</li>
+								<li class="skills-item">JS</li>
+							</ul>
+						</div>
+						<div class="left-divide-line"></div>
+						<div class="education">
+							<div class="title">Education</div>
+							<div class="education-item">
+								<div class="education-item-title">Yaroslav Mudryi National Law University</div>
+								<div class="education-item-direction">Master of Laws</div>
+								<div class="education-item-period">2010-2015</div>
+							</div>
+						</div>
+					</div>
+					<div class="divide-line"></div>
+					<div class="right-side">
+						<div class="profile">
+							<div class="title">Profile</div>
+							<div class="profile-text">Hello there! I want to become a great developer and change world!</div>
+						</div>
+						<div class="right-divide-line"></div>
+						<div class="experience">
+							<div class="title">Experience</div>
+							<div class="experience-text">I havn`t commertial experience!</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</section>
+		</main>
+		<footer>
 
-		<footer class="page-footer">
-			<div class="container">
-				<a href="" class="footer-email">@gmail</a>
-				<a href="" class="footer-phone">9379992</a>
-			</div>
 		</footer>
-  </body>
+	</body>
 </html>

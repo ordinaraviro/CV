@@ -1,0 +1,143 @@
+:root {
+    --dark-color: #464a4e;
+    --grey-color: #706f6f;
+    --light-grey-color: #f4f4f4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: "Montserrat";
+    color: var(--dark-color);
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 5vw;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 20px;
+    background-color: var(--light-grey-color);
+    height: 100px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3vw;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+.header-name, .header-text {
+    letter-spacing: 0.5rem;
+}
+
+.header-photo {
+    right: 3vw;
+    top: 1vw;
+    background-image: url("/CV/assets/svg/1455554989_users-6_icon-icons.com_53279.svg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.cv-info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    width: 30vw;
+}
+
+.divide-line {
+    width: 1px;
+    background-color: var(--dark-color);
+    height: 40vw;
+}
+
+.right-side {
+    width: 40vw;
+}
+
+.contacts-item {
+    list-style: none;
+    height: 30px;
+}
+
+.gh-anchor {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.skills-item {
+    list-style: none;
+    height: 25px;
+}
+
+.left-divide-line {
+    width: 30vw;
+    background-color: var(--dark-color);
+    height: 1px;
+}
+
+.right-divide-line {
+    width: 400px;
+    background-color: var(--dark-color);
+    height: 1px;
+}
+
+.profile {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.experience {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 20px;
+}
